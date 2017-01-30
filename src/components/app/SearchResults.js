@@ -60,14 +60,14 @@ module.exports = React.createClass({
 									background: this.props.combinedDataIndex === 1 ? results.number : "",
 									color: this.props.combinedDataIndex === 1 ? "#ffffff" : ""
 								}}>
-                    <a href="">
+                    <a href="javascript:void(0)">
                       <div
 												className="col-xs-12 entity-symbol"
 												style={{fontSize: this.props.combinedDataIndex === 1 ? ".9em" : ""}}
 												dangerouslySetInnerHTML={{__html: this.props.combinedDataIndex > 0 ? results.name  : results.number }} />
 
                     </a>
-                    <a href="">
+                    <a href="javascript:void(0)">
                       <div className="col-xs-12 col-sm-12">
                         <div className="row">
                           <div className="col-xs-6 text-left visible-sm visible-xs entity-details"><span>{results.name}</span></div>
